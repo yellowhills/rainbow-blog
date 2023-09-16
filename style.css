@@ -1,0 +1,46 @@
+/* Estilo para a seção de posts */
+.featured-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Espaço entre as caixas */
+}
+
+/* Estilo para cada artigo de post */
+.post {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.post p {
+    font-size: 1rem;
+}
+
+.post a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
