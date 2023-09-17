@@ -3,14 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim - Meu Blog</title>
+    <title>Meu Blog</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sobre.css">
     <script src="script.js"></script>
+    <style>
+        /* Estilos de exemplo para a formatação do cabeçalho */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
 
 <header>
+    <h1>Meu Blog</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="sobre.html">Sobre Mim</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+    </nav>
+</header>
     <h1>Meu Blog</h1>
     <nav>
         <ul>
@@ -30,6 +72,8 @@
 <footer>
     <p>&copy; 2023 Meu Blog. Todos os direitos reservados.</p>
 </footer>
+<script src="script.js"></script>
+<div id="page-container"></div>
 
 </body>
 </html>
